@@ -1,0 +1,723 @@
+<html>
+
+<head>
+    <title>
+        Watch Movies, Web Series, TV-Shows, Live TV Channels - aha
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="https://www.aha.video/assets/images/logo/aha-logo.svg">
+    <link rel="stylesheet" href="home-css.css">
+    <style>
+
+
+    </style>
+
+
+
+
+
+</head>
+
+<body>
+
+    <div id="phone-sticky" class="phone-main">
+        <div class="phone-img">
+            <img src="https://www.aha.video/assets/images/logo/aha-logo.svg">
+
+        </div>
+        <div class="phone-bar">
+            <div class="phone-bar2">
+
+
+                <nav>
+                    <ul>
+                        <li class="all"><button id="button" onclick="imges('button')"><img src="apps.png" id="imag">
+                                <p>All</p>
+                            </button></li>
+                        <li class="all"><button id="button1" onclick="imges('button1')"><img src="camera.png"
+                                    id="imag1">
+                                <p>Movies</p>
+                            </button></li>
+                        <li class="all"><button id="button2" onclick="imges('button2')"><img src="tv.png" id="imag2">
+                                <p>Shows</p>
+                            </button></li>
+                        <li class="all"><button id="button3" onclick="imges('button3')"><img src="tv.png" id="imag3">
+                                <p>SIFF</p>
+                            </button></li>
+                        <li class="all"><button id="button4" onclick="imges('button4')"><img src="tv.png" id="imag4">
+                                <p>Telugu</p>
+                            </button></li>
+
+
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <script>
+
+
+
+        function imges(buttonId) {// here we fisrt take button id when onclick 
+            var t = { "button": "imag", "button1": "imag1", "button2": "imag2", "button3": "imag3", "button4": "imag4" }// here we variable and add both dutton id and image id
+            for (var j in t) { // for loop to take all the objects in j
+                var buttons = document.getElementById(j)  // here we fisrt take button id when onclick 
+                console.log(buttonId)
+                var images = document.getElementById(t[j])// one by  image id will get
+                var page1 = document.getElementById("page2")
+                if (j == buttonId) { // buttonID in function and j value is checked
+                    images.style.display = "block"
+
+                    buttons.style.backgroundColor = "#58585a" // if its throw it will print
+
+
+                }
+                else {// else un click images are not display
+                    
+                    images.style.display = "none"
+                    buttons.style.border = "none"
+                    buttons.style.backgroundColor = "transparent"
+
+                }
+            }
+
+
+
+
+
+        }
+
+
+    </script>
+
+
+
+
+
+
+    <div class="image-slide">
+        <div class="image-slide2">
+            <img id="imag1"
+                src="https://image-resizer-cloud-api.akamaized.net/image/0E441AF9-EB39-4A16-B48B-61464EB72E97/0-3x1.jpg?width=2310&updatedTime=2024-03-20T22:17:27Z&dt=Web"
+                alt="">
+            <img id="imag2"
+                src="https://image-resizer-cloud-api.akamaized.net/image/E61A5134-85D3-448B-A0D2-A9351E7A29F0/0-3x1.jpg?width=2310&updatedTime=2024-06-03T13:43:07Z&dt=Web"
+                alt="">
+            <img id="imag3"
+                src="https://image-resizer-cloud-api.akamaized.net/image/8C01C489-48A1-4A4C-BF5E-0FB4A5240598/0-3x1.jpg?width=2310&updatedTime=2024-05-31T14:20:16Z&dt=Web"
+                alt="">
+            <img id="imag4"
+                src="https://image-resizer-cloud-api.akamaized.net/image/AAAF12C2-620D-4030-BC55-65B3B81395D1/0-3x1.jpg?width=2310&updatedTime=2024-06-04T10:42:06Z&dt=Web"
+                alt="">
+            <img id="imag5"
+                src="https://image-resizer-cloud-api.akamaized.net/image/85F2E03E-68A1-48E1-B3D0-C5DCC08601CC/0-3x1.jpg?width=2310&updatedTime=2024-06-03T14:36:53Z&dt=Web"
+                alt="">
+            <img id="imag6"
+                src="https://image-resizer-cloud-api.akamaized.net/image/E67C5141-54D2-4B9A-88F7-C3D3BD35A076/0-3x1.jpg?width=2310&updatedTime=2024-05-31T14:17:26Z&dt=Web"
+                alt="">
+            <img id="imag7"
+                src="https://image-resizer-cloud-api.akamaized.net/image/BCF0DA76-13D6-47F4-A956-44E0B34D1F09/0-3x1.jpg?width=2310&updatedTime=2024-06-03T13:42:00Z&dt=Web"
+                alt="">
+            <img id="imag8"
+                src="https://image-resizer-cloud-api.akamaized.net/image/92DCA020-308D-41A8-A980-5014025062E0/0-3x1.jpg?width=2310&updatedTime=2024-06-03T13:44:24Z&dt=Web"
+                alt="">
+            <img id="imag9"
+                src="https://image-resizer-cloud-api.akamaized.net/image/0E441AF9-EB39-4A16-B48B-61464EB72E97/0-3x1.jpg?width=2310&updatedTime=2024-03-20T22:17:27Z&dt=Web"
+                alt="">
+            <img id="imag10"
+                src="https://image-resizer-cloud-api.akamaized.net/image/5eaf2f18-7d76-494f-9049-695ed74e61bc/0-3x1.jpg?width=2310&updatedTime=2024-05-21T04:15:37Z&dt=Web"
+                alt="">
+        </div>
+
+
+
+
+    </div>
+    <div id="topbar" class="top-bar">
+        <div class="home">
+            <nav>
+                <img src="https://www.aha.video/assets/images/logo/aha-logo.svg">
+                <ul>
+                    <li><a href=""> Home</a></li>
+                    <li><a href="">Movies</a></li>
+                    <li><a href="">Shows</a></li>
+                    <li><a href="">SIFF</a></li>
+                    <li><a href="">Watch for Free</a></li>
+                    <li><a href="">Offers</a></li>
+                    <li><a href="">My aha</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="sign-up">
+            <button>
+                subscribe
+            </button>
+            <ul>
+
+                <li>Sign up
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+    </div>
+    <script>
+        /*here window.scroll is a property in css for that property we are adding  fuction*/
+        window.onscroll = function sam() {
+            var stickyDiv = document.getElementById("topbar");
+            var stickydivmobile = document.getElementById("phone-sticky")
+            if (window.scrollY > 5) {
+                stickyDiv.classList.add("scrolled");
+                stickydivmobile.classList.add("scrolled2")
+            } else {
+                stickyDiv.classList.remove("scrolled");
+                stickydivmobile.classList.remove("scrolled2")
+            }
+        };
+        sam();
+        /*window.scrolly tells how page was scrolled*/
+
+    </script>
+
+
+
+    <div class="a">
+        <p>New release</p>
+        <p>
+            See all
+        </p>
+
+    </div>
+    <br>
+
+    <div class="trending">
+        <div class="trending-item">
+            <div class="trending1"><button><img
+                        src="https://image-resizer-cloud-api.akamaized.net/image/D49BCB57-4081-4CA3-AED5-4B60DB40DC42/0-2x3.jpg?width=305&updatedTime=2024-05-31T14:18:23Z&dt=Web"></button>
+            </div>
+            <div class="trending2">
+                <p>Sarkaar 4 Ep 7</p>
+            </div>
+        </div>
+        <div class="trending-item">
+            <div class="trending1"><button><img
+                        src="https://image-resizer-cloud-api.akamaized.net/image/8E2021E1-228E-4841-944B-4B3435C2C81B/0-2x3.jpg?width=305&updatedTime=2024-06-03T14:33:13Z&dt=Web"></button>
+            </div>
+            <div class="trending2">
+                <p>Yatra 2</p>
+            </div>
+        </div>
+        <div class="trending-item">
+            <div class="trending1"><button><img
+                        src="https://image-resizer-cloud-api.akamaized.net/image/E67C5141-54D2-4B9A-88F7-C3D3BD35A076/0-2x3.jpg?width=305&updatedTime=2024-05-31T14:17:26Z&dt=Web"></button>
+            </div>
+            <div class="trending2">
+                <p>Prasanna Vadanam</p>
+            </div>
+        </div>
+        <div class="trending-item">
+            <div class="trending1"><button><img
+                        src="https://image-resizer-cloud-api.akamaized.net/image/8C01C489-48A1-4A4C-BF5E-0FB4A5240598/0-2x3.jpg?width=305&updatedTime=2024-05-31T14:20:16Z&dt=Web"></button>
+            </div>
+            <div class="trending2">
+                <p>Project Z</p>
+            </div>
+        </div>
+        <div class="trending-item">
+            <div class="trending1"><button><img
+                        src="https://image-resizer-cloud-api.akamaized.net/image/B6259D86-B793-4D8E-B60C-295825B63028/0-2x3.jpg?width=305&updatedTime=2024-06-03T13:41:08Z&dt=Web"></button>
+            </div>
+            <div class="trending2">
+                <p>Vidya Vasula Aham</p>
+            </div>
+        </div>
+        <div class="trending-item">
+            <div class="trending1"><button><img
+                        src="https://image-resizer-cloud-api.akamaized.net/image/BCF0DA76-13D6-47F4-A956-44E0B34D1F09/0-2x3.jpg?width=305&updatedTime=2024-06-03T13:42:00Z&dt=Web"></button>
+            </div>
+            <div class="trending2">
+                <p>Geethanjali Malli Vachindi</p>
+            </div>
+        </div>
+        <div class="trending-item">
+            <div class="trending1"><button><img
+                        src="https://image-resizer-cloud-api.akamaized.net/image/F63FC0C0-475A-47FC-9F76-B57017B1753A/0-2x3.jpg?width=305&updatedTime=2024-05-31T14:36:16Z&dt=Web"></button>
+            </div>
+            <div class="trending2">
+                <p>Premalu</p>
+            </div>
+        </div>
+        <div class="trending-item">
+            <div class="trending1"><button><img
+                        src="https://image-resizer-cloud-api.akamaized.net/image/A4DAFA3F-9478-4757-A4CD-EE1EA2B2D0BD/0-2x3.jpg?width=305&updatedTime=2024-05-24T14:57:17Z&dt=Web"></button>
+            </div>
+            <div class="trending2">
+                <p>My Dear Donga</p>
+            </div>
+        </div>
+        <div class="trending-item">
+            <div class="trending1"><button><img
+                        src="https://image-resizer-cloud-api.akamaized.net/image/C4FCB353-F6E7-4AE8-8034-7A6974C677AA/0-2x3.jpg?width=305&updatedTime=2024-05-16T04:45:18Z&dt=Web"></button>
+            </div>
+            <div class="trending2">
+                <p>Chunduru Police Station</p>
+            </div>
+        </div>
+        <div class="trending-item">
+            <div class="trending1"><button><img
+                        src="https://image-resizer-cloud-api.akamaized.net/image/32A18797-B194-4029-9FF2-926859055787/0-2x3.jpg?width=305&updatedTime=2024-05-16T04:42:56Z&dt=Web"></button>
+            </div>
+            <div class="trending2">
+                <p>Tantra</p>
+            </div>
+        </div>
+        <div class="trending-item">
+            <div class="trending1"><button><img
+                        src="https://image-resizer-cloud-api.akamaized.net/image/A2E1DF34-C2E9-48EF-94F3-B7A8693971BF/0-2x3.jpg?width=305&updatedTime=2024-05-17T18:45:00Z&dt=Web"></button>
+            </div>
+            <div class="trending2">
+                <p>Sundaram Master</p>
+            </div>
+        </div>
+        <div class="trending-item">
+            <div class="trending1"><button><img
+                        src="https://image-resizer-cloud-api.akamaized.net/image/F8101D46-3B4A-47F1-948A-36F4F6B80923/0-2x3.jpg?width=305&updatedTime=2024-05-16T04:46:52Z&dt=Web"></button>
+            </div>
+            <div class="trending2">
+                <p>Bhoothaddam Bhaskar Narayana</p>
+            </div>
+        </div>
+        <div class="trending-item">
+            <div class="trending1"><button><img
+                        src="https://image-resizer-cloud-api.akamaized.net/image/540555B0-14A6-4471-A8FF-CEA9FA030C0E/0-2x3.jpg?width=305&updatedTime=2024-05-16T04:55:48Z&dt=Web"></button>
+            </div>
+            <div class="trending2">
+                <p>Mix Up</p>
+            </div>
+        </div>
+        <div class="trending-item">
+            <div class="trending1"><button><img
+                        src="https://image-resizer-cloud-api.akamaized.net/image/4BBC7A07-E7FD-4E6F-8780-47E2DF4D93B4/0-2x3.jpg?width=305&updatedTime=2024-05-16T04:36:49Z&dt=Web"></button>
+            </div>
+            <div class="trending2">
+                <p>Ambajipeta Marriage Band</p>
+            </div>
+        </div>
+        <div class="trending-item">
+            <div class="trending1"><button><img
+                        src="https://image-resizer-cloud-api.akamaized.net/image/95DBA381-B11B-4EE8-8F82-88030F344350/0-2x3.jpg?width=305&updatedTime=2024-05-16T04:52:12Z&dt=Web"></button>
+            </div>
+            <div class="trending2">
+                <p>Bubblegum</p< /div>
+            </div>
+        </div>
+
+
+    </div>
+    <div class="t">
+        <p>Recently ADD
+        </p>
+        <p>
+            See all
+        </p>
+    </div>
+    <div class="Recently">
+        <div class="trending-item">
+            <div class="trending1"><button><img
+                        src="https://image-resizer-cloud-api.akamaized.net/image/61B1D7ED-7F4C-4211-A5D0-08470C77FC23/0-2x3.jpg?width=305&updatedTime=2024-05-20T12:50:05Z&dt=Web"></button>
+            </div>
+            <div class="trending2">
+                <p>Sharathulu Varthisthai</p>
+            </div>
+        </div>
+        <div class="trending-item">
+            <div class="trending1"><button><img
+                        src="https://image-resizer-cloud-api.akamaized.net/image/84E58201-1545-4CC1-A03E-14EC5EA9F6D3/0-2x3.jpg?width=305&updatedTime=2024-05-16T04:37:24Z&dt=Web"></button>
+            </div>
+            <div class="trending2">
+                <p>Siddharth Roy</p>
+            </div>
+        </div>
+        <div class="trending-item">
+            <div class="trending1"><button><img
+                        src="https://image-resizer-cloud-api.akamaized.net/image/93AB8B3D-2BB0-48A5-80C7-225086819D1F/0-2x3.jpg?width=305&updatedTime=2024-05-21T12:35:14Z&dt=Web"></button>
+            </div>
+            <div class="trending2">
+                <p>Asuraguru</p>
+            </div>
+        </div>
+        <div class="trending-item">
+            <div class="trending1"><button><img
+                        src="https://image-resizer-cloud-api.akamaized.net/image/4F18E729-C3F3-4A63-BA71-00672780AFEE/0-2x3.jpg?width=305&updatedTime=2024-05-21T12:35:19Z&dt=Web"></button>
+            </div>
+            <div class="trending2">
+                <p>Happy Ending</p>
+            </div>
+        </div>
+        <div class="trending-item">
+            <div class="trending1"><button><img
+                        src="https://image-resizer-cloud-api.akamaized.net/image/580B3FC1-6BE7-42AA-8E1C-F50D23563108/0-2x3.jpg?width=305&updatedTime=2024-05-21T12:32:23Z&dt=Web"></button>
+            </div>
+            <div class="trending2">
+                <p>Kajal Karthika</p>
+            </div>
+        </div>
+        <div class="trending-item">
+            <div class="trending1"><button><img
+                        src="https://image-resizer-cloud-api.akamaized.net/image/66DAEB59-7E1C-456B-8965-88A6CD5E3BD7/0-2x3.jpg?width=305&updatedTime=2024-05-21T12:32:11Z&dt=Web"></button>
+            </div>
+            <div class="trending2">
+                <p>Double Engine</p>
+            </div>
+        </div>
+        <div class="trending-item">
+            <div class="trending1"><button><img
+                        src="https://image-resizer-cloud-api.akamaized.net/image/4A577860-06DC-458E-B54A-21E480E1569F/0-2x3.jpg?width=305&updatedTime=2024-05-21T12:36:57Z&dt=Web"></button>
+            </div>
+            <div class="trending2">
+                <p>Thika Maka Thanda</p>
+            </div>
+        </div>
+        <div class="trending-item">
+            <div class="trending1"><button><img
+                        src="https://image-resizer-cloud-api.akamaized.net/image/F94D071B-CB33-4F9A-8568-59EE1D9D6AFD/0-2x3.jpg?width=305&updatedTime=2024-05-21T12:37:00Z&dt=Web"></button>
+            </div>
+            <div class="trending2">
+                <p>Breathe</p>
+            </div>
+        </div>
+        <div class="trending-item">
+            <div class="trending1"><button><img
+                        src="https://image-resizer-cloud-api.akamaized.net/image/DEC8FF1C-6B9B-464F-AF41-50C26D980D25/0-2x3.jpg?width=305&updatedTime=2024-05-16T05:00:09Z&dt=Web"></button>
+            </div>
+            <div class="trending2">
+                <p>Sound Party</p>
+            </div>
+        </div>
+        <div class="trending-item">
+            <div class="trending1"><button><img
+                        src="https://image-resizer-cloud-api.akamaized.net/image/B7B38FD2-92D7-46C0-97C7-79F341FFF63E/0-2x3.jpg?width=305&updatedTime=2024-05-21T12:35:11Z&dt=Web"></button>
+            </div>
+            <div class="trending2">
+                <p>Bootcut Balaraju</p>
+            </div>
+        </div>
+        <div class="trending-item">
+            <div class="trending1"><button><img
+                        src="https://image-resizer-cloud-api.akamaized.net/image/8F02BEDA-4CF5-4E9E-BE6D-4C4EF106C012/0-2x3.jpg?width=305&updatedTime=2024-05-21T12:35:11Z&dt=Web"></button>
+            </div>
+            <div class="trending2">
+                <p>My Name is Shruthi</p>
+            </div>
+        </div>
+        <div class="trending-item">
+            <div class="trending1"><button><img
+                        src="https://image-resizer-cloud-api.akamaized.net/image/D6AE9055-DF52-41FF-BE3E-D35203475791/0-2x3.jpg?width=305&updatedTime=2024-05-21T12:34:55Z&dt=Web"></button>
+            </div>
+            <div class="trending2">
+                <p>Good luck Ganesha</p>
+            </div>
+        </div>
+        <div class="trending-item">
+            <div class="trending1"><button><img
+                        src="https://image-resizer-cloud-api.akamaized.net/image/B91BA4CC-6A9B-464C-9709-46ED18F58CE2/0-2x3.jpg?width=305&updatedTime=2024-05-21T12:35:26Z&dt=Web"></button>
+            </div>
+            <div class="trending2">
+                <p>Lingoccha</p>
+            </div>
+        </div>
+        <div class="trending-item">
+            <div class="trending1"><button><img
+                        src="https://image-resizer-cloud-api.akamaized.net/image/A16EBADF-1DD3-4FAC-813C-E7FB7AC5DBD2/0-2x3.jpg?width=305&updatedTime=2024-05-21T12:37:47Z&dt=Web"></button>
+            </div>
+            <div class="trending2">
+                <p>Boys Hostel</p>
+            </div>
+        </div>
+        <div class="trending-item">
+            <div class="trending1"><button><img
+                        src="https://image-resizer-cloud-api.akamaized.net/image/76660B2E-A765-4D3B-A28C-83CEDABBABD8/0-2x3.jpg?width=305&updatedTime=2024-05-21T12:37:53Z&dt=Web"></button>
+            </div>
+            <div class="trending2">
+                <p>Richie Gadi Pelli</p>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <div class="c">
+        <p>
+            aha Originals Collection
+        </p>
+        <p class="p2">
+            See all
+        </p>
+
+    </div>
+    <div class="Originals">
+        <div class="trending-item2">
+            <div class="trending3"><button><img
+                        src="https://image-resizer-cloud-api.akamaized.net/image/E51CB6A8-D3A9-474C-84E7-BDB6B2980239/0-2x3.jpg?width=922&updatedTime=2024-06-07T14:30:29Z&dt=Web"></button>
+            </div>
+            <div class="trending4">
+                <p>Unstoppable</p>
+            </div>
+        </div>
+        <div class="trending-item2">
+            <div class="trending3"><button><img
+                        src="https://image-resizer-cloud-api.akamaized.net/image/1D67B609-AC68-4A94-B80E-D0B8437B5519/0-2x3.jpg?width=922&updatedTime=2024-04-24T17:55:24Z&dt=Web"></button>
+            </div>
+            <div class="trending4">
+                <p>3 Roses</p>
+            </div>
+        </div>
+        <div class="trending-item2">
+            <div class="trending3"><button><img
+                        src="https://image-resizer-cloud-api.akamaized.net/image/6984D667-EC02-43FE-8592-D173A6DEB7E8/0-2x3.jpg?width=305&updatedTime=2024-05-16T04:34:25Z&dt=Web"></button>
+            </div>
+            <div class="trending4">
+                <p>Ori Devuda</p>
+            </div>
+        </div>
+        <div class="trending-item2">
+            <div class="trending3"><button><img
+                        src="https://image-resizer-cloud-api.akamaized.net/image/841C0A2D-DFA5-4DDF-B45A-BA04C037444A/0-2x3.jpg?width=305&updatedTime=2024-05-24T14:51:28Z&dt=Web"></button>
+            </div>
+            <div class="trending4">
+                <p>Baby</p>
+            </div>
+        </div>
+        <div class="trending-item2">
+            <div class="trending3"><button><img
+                        src="https://image-resizer-cloud-api.akamaized.net/image/D6AE9055-DF52-41FF-BE3E-D35203475791/0-2x3.jpg?width=305&updatedTime=2024-05-21T12:34:55Z&dt=Web"></button>
+            </div>
+            <div class="trending4">
+                <p>Good luck Ganesha</p>
+            </div>
+        </div>
+        <div class="trending-item2">
+            <div class="trending3"><button><img
+                        src="https://image-resizer-cloud-api.akamaized.net/image/B91BA4CC-6A9B-464C-9709-46ED18F58CE2/0-2x3.jpg?width=305&updatedTime=2024-05-21T12:35:26Z&dt=Web"></button>
+            </div>
+            <div class="trending4">
+                <p>Lingoccha</p>
+            </div>
+        </div>
+        <div class="trending-item2">
+            <div class="trending3"><button><img
+                        src="https://image-resizer-cloud-api.akamaized.net/image/A16EBADF-1DD3-4FAC-813C-E7FB7AC5DBD2/0-2x3.jpg?width=305&updatedTime=2024-05-21T12:37:47Z&dt=Web"></button>
+            </div>
+            <div class="trending4">
+                <p>Boys Hostel</p>
+            </div>
+        </div>
+        <div class="trending-item2">
+            <div class="trending3"><button><img
+                        src="https://image-resizer-cloud-api.akamaized.net/image/76660B2E-A765-4D3B-A28C-83CEDABBABD8/0-2x3.jpg?width=305&updatedTime=2024-05-21T12:37:53Z&dt=Web"></button>
+            </div>
+            <div class="trending4">
+                <p>Richie Gadi Pelli</p>
+            </div>
+        </div>
+
+
+
+    </div>
+
+    <div class="last-matter">
+
+
+        <div class="last-matter-div">
+            <p>
+
+                Popular Telugu Movies
+                <br>
+                Chunduru Police Station
+                <br>
+                Tantra
+                <br>
+                Sundaram Master
+                <br>
+                Bhoothaddam Bhaskar Narayana
+                <br>
+                Ambajipeta Marriage Band
+
+
+
+            </p>
+        </div>
+        <div class="last-matter-div">
+            <p>
+                Must Watch Movie
+                <br>
+
+                My Dear Donga
+                <br>
+
+                Mix Up
+                <br>
+
+                Bhamakalapam 2
+                <br>
+
+                Polimera 2
+                <br>
+
+                Keedaa Cola
+
+            </p>
+        </div>
+        <div class="last-matter-div">
+            <p>
+                Genres
+                <br>
+                Telugu Drama Movies
+                <br>
+                Telugu Comedy Movies
+                <br>
+                Telugu Action Movies
+                <br>
+                Telugu Romance Movies
+                <br>
+
+
+
+
+            </p>
+
+
+        </div>
+        <div class="last-matter-div">
+            <p>
+                Learn More
+                <br>
+
+                View Plans
+                <br>
+                About Us
+                <br>
+                FAQs / Help
+                <br>
+                Privacy Policy
+                <br>
+                Terms of Service
+                <br>
+                Grievance Redressal
+                <br>
+                Blog
+
+            </p>
+        </div>
+        <div class="last-matter-div">
+            <img class="contact-img" src="Picture1.jpg">
+
+            <br>
+
+            <h3>
+                connect with us
+            </h3>
+
+            <div>
+                <img class="last-matter-div-img1" src="facebook.png">
+                <img class="last-matter-div-img1" src="twitter.png">
+                <img class="last-matter-div-img1" src="social.png">
+            </div>
+            <h4>
+                Download aha mobile app
+            </h4>
+            <div class="last-matter-div2">
+                <img src="https://www.aha.video/assets/images/social/app_store_mobile.svg">
+                <img src="https://www.aha.video/assets/images/social/google_play_mobile.svg">
+
+            </div>
+            <div class="last-matter-div2-email">
+                <h3>
+                    contact&nbsp;us
+                </h3>
+                <a href="">ganeshreddy6498@mail.com</a>
+            </div>
+
+        </div>
+
+    </div>
+    <hr class="line">
+
+
+    <div class="copy">
+        <div class="copy1">
+            <h5>
+                &copy;copyright 2024 Artha Media and Bordcasting Pvt Ldt.All rights reserved.
+            </h5>
+        </div>
+        <div class="copy3">
+            <div>
+                <p>
+                    powerd By
+                </p>
+            </div>
+
+            <div><img src="quickplay.png"></div>
+        </div>
+
+    </div>
+    <div class="copy-1">
+        <div class="copy-2">
+            <div>
+                <p>
+                    powerd By
+                </p>
+            </div>
+
+            <div><img src="quickplay.png"></div>
+        </div>
+        <div class="copy-3">
+            <h5>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&copy;copyright 2024 Artha Media and
+            </h5>
+            <h5>
+                &nbsp;&nbsp;Bordcasting Pvt Ldt.All rights reserved.
+            </h5>
+        </div>
+
+
+
+    </div>
+    <div class="space-div">
+
+    </div>
+
+
+
+
+
+
+
+    <div class="bottom-z">
+        <div class="bottom-bar"><img src="home.png">
+            <p>
+                home
+            </p>
+        </div>
+
+        <div class="bottom-bar"><img src="tick.png">
+            <p>
+                My aha
+            </p>
+        </div>
+        <div class="bottom-bar"><img src="search.png">
+            <p>
+                Search
+            </p>
+        </div>
+        <div class="bottom-bar"><img src="menu.png">
+            <p>
+                menu
+            </p>
+        </div>
+
+
+
+</body>
+
+</html>
