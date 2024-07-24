@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        registration page
+    </title>
+    <style>
+        table {
+            width: auto;
+            height: auto;
+
+        }
+
+        input[type=text],
+        [type=password],
+        [type=email] {
+            display: inline-block;
+            width: 300px;
+            padding: 10px;
+            box-sizing: auto;
+            border: .5px solid;
+            margin: 10px 0;
+            border-radius: 5px;
+            
+
+        }
+        body {
+            padding: 10px;
+            border: 40px;
+            margin-top: 75px;
+        
+        }
+        button{
+            display:inline-block;
+            width: 5%;
+            padding: 10px;
+            box-sizing: auto;
+            border: .5px solid;
+            margin: 10px 0;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <h1 style="color:blue">
+        <center>
+            welcome to certificate validation
+        </center>
+    </h1>
+    <center>
+        <form name="reg" action="loginpage.html">
+            <table>
+                <tr width="85%">
+                    <td>
+                        FIRST NAME
+                    </td>
+                    <td><input type="text" name="fname" placeholder="Enter firstname" required></td>
+                </tr>
+                <tr >
+                    <td>
+                       LAST NAME
+                    </td>
+                    <td><input type="text" name="lname" placeholder="Enter lastname" required></td>
+                </tr>
+                <tr>
+                    <td>
+                        
+                            MAIL ID
+                        
+                    </td>
+                    <td><input type="email" name="gmail" placeholder="enter gmail" required></td>
+                </tr>
+                <tr>
+                    <td>
+                        GENDER
+                    </td>
+                    <td><input type=radio name="gname" >male
+                        <input type=radio name="gnam" >
+                        female
+                    </td>
+
+                </tr>
+                <tr>
+                    <td>
+                        PASSWORD
+                    </td>
+                    <td ><input type="password" name="fname" placeholder="Enter password" required></td>
+                </tr>
+                <tr>
+                    <td>
+                        CONFORM
+                    </td>
+                    <td><input type="password" placeholder="Enter conform password" name="fname" required>
+                    </td>
+                </tr>
+
+            </table>
+            <center><button>SUBMIT</button></center></button>
+        </form>
+    </center>
+
+</html>

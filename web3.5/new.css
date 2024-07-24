@@ -1,0 +1,40 @@
+<style>
+  body {
+      background-image: url("K1_CMS_0129_1.jpg");
+
+      background-position-x: 50%;
+      background-position-y: 50%;
+  }
+
+  .res {
+      margin: auto;
+      background: transparent;
+      max-width: 350px;
+      padding: 10px;
+      border-radius: 4px;
+
+  }
+
+  input[type=text] {
+      display: inline-block;
+      width: 100%;
+      padding: 10px;
+      box-sizing: border-box;
+      border: .5px solid;
+      margin: 10px 0;
+
+
+  }
+
+  input[type=submit] {
+
+      width: 100%;
+      padding: 10px;
+      border-radius: 4px;
+      border: none;
+      background: olivedrab;
+      font-size: 20px;
+      cursor: pointer;
+
+  }
+</style>
